@@ -164,11 +164,11 @@ The analysis uncovered several critical insights across hospital operations, pat
 
 ## Tech Stack
 
-|Power BI | Data visualisation & dashboarding|
-|---       | ---                              |
-|DAX |KPI and measure creation|
-|Power Query | Data cleaning and transformation|
-|Data Modelling | Star schema design |
+|Power BI       | Data visualisation & dashboarding|
+|---            | ---                              |
+|DAX            |KPI and measure creation          |
+|Power Query    | Data cleaning and transformation |
+|Data Modelling | Star schema design               |
 
 
 
