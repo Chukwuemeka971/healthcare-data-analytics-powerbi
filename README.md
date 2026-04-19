@@ -1,29 +1,44 @@
 ## Healthcare Operations & Patient Analytics Solutions – St. Augustine Hospital
 ![](./Images/hospital_pics.png)
+## Business Problem
 
+St. Augustine Hospital lacked a structured data model and relied on flat-file datasets, making it difficult to analyse operational performance and patient outcomes effectively.
+
+This resulted in:
+- Limited visibility into key metrics such as patient flow, readmission rates, and department utilisation  
+- Inability to identify capacity bottlenecks and workforce imbalances  
+- Fragmented data that prevented meaningful analysis across patients, doctors, and treatments  
+- Delayed and reactive decision-making due to lack of real-time insights  
+
+As a result, the hospital struggled to optimise resource allocation, manage patient demand, and improve quality of care.
+
+---
 ## Project Description
 
-This project delivers an end-to-end healthcare analytics solution designed to improve visibility into hospital operations and patient outcomes. It transforms raw, unstructured data into a scalable star schema model and presents key insights through an interactive Power BI dashboard.
+Designed and implemented an end-to-end healthcare analytics solution to improve visibility into hospital operations and patient outcomes.
 
-The solution enables stakeholders to monitor critical metrics such as patient flow, treatment effectiveness, departmental capacity, and workforce performance, supporting more informed and data-driven decision-making.
+The project transformed unstructured hospital data into a scalable star schema model and delivered interactive Power BI dashboards to monitor key metrics such as patient flow, departmental capacity, treatment effectiveness, and workforce performance.
+
+The solution enables stakeholders to identify operational inefficiencies, reduce readmissions, and optimise resource allocation through data-driven decision-making.
+
 
 ---
 ## Overview
+
 St. Augustine Hospital relied on a flat-file data structure, limiting its ability to analyse operational performance and identify trends.
 
-To address this, the data was restructured into a star schema model, improving data quality, performance, and analytical flexibility. This foundation was then used to develop interactive dashboards with key KPIs and drill-down capabilities.
+To address this, the data was transformed into a structured star schema model, improving data quality, performance, and analytical flexibility. This enabled the development of interactive dashboards with real-time KPIs and drill-down capabilities.
 
-The analysis highlighted key challenges, including high readmission rates, capacity pressure in high-demand departments, and uneven workload distribution across doctors. These insights provide a basis for targeted improvements in resource allocation, patient care, and operational planning.
+The analysis revealed key challenges, including high readmission rates, capacity constraints in high-demand departments, and uneven workload distribution across doctors.
 
 ---
 ## Project Rationale
-The hospital’s reliance on a flat-file data structure created significant limitations in its ability to generate timely, accurate, and actionable insights. Data redundancy, poor performance, and the lack of clear relationships between key entities (patients, doctors, departments, and treatments) made it difficult to analyse trends or monitor operational performance effectively.
 
-As a result, stakeholders had limited visibility into critical areas such as patient demand patterns, departmental workload, treatment outcomes, and readmission rates. This constrained both day-to-day operational decisions and longer-term strategic planning.
+The hospital’s flat-file data structure limited its ability to generate accurate and timely insights due to data redundancy, poor performance, and lack of relational structure.
 
-This project was initiated to address these challenges by introducing a structured data model and an interactive analytics layer. By implementing a star schema and developing a Power BI dashboard, the solution enables efficient data exploration, real-time KPI monitoring, and multi-dimensional analysis.
+This project introduces a star schema model and an interactive analytics layer, enabling efficient data exploration, KPI monitoring, and multi-dimensional analysis.
 
-Ultimately, the rationale is to transition from static, reactive reporting to a more proactive, insight-driven approach, empowering stakeholders to optimise resource allocation, improve patient care, and enhance overall hospital performance.
+The goal is to shift from reactive reporting to a proactive, insight-driven approach for improving operational efficiency and patient outcomes.
 
 ---
 ## Aim of the Project 
@@ -90,27 +105,24 @@ Click below to explore the live dashboard
 
 ---
 ## Key Insights
-The analysis uncovered several critical insights across hospital operations, patient behaviour, and treatment outcomes:
-### 1. Quality of Care
-- The hospital exhibits a high readmission rate (~35%), particularly within Cardiology and Pediatrics.
-- This suggests potential gaps in post-discharge care, treatment effectiveness, or patient follow-up processes, requiring immediate attention.
-### 2. Department Capacity & Utilisation
-- Pediatrics is operating near full capacity (~91%), indicating significant pressure on resources and potential risk of service bottlenecks.
-- In contrast, the Emergency department is underutilised (~29%), highlighting inefficiencies in patient allocation and resource distribution.
-### 3. Workforce & Performance
-- Patient visits are unevenly distributed across doctors, with certain practitioners handling significantly higher workloads.
-- There is also variation in patient outcomes across doctors, suggesting opportunities for performance standardisation and knowledge sharing.
-### 4. Treatment Effectiveness
-- Overall treatment success rate is approximately 78%, indicating generally strong performance.
-- However, success rates vary significantly:
-  - Higher for routine procedures (e.g., diagnostics)
-  - Lower for complex treatments (e.g., surgeries, oncology-related care)
-### 5. Patient Demographics & Geography
-- The majority of patients fall within the 18–35 age group, with a secondary concentration in older populations (60+).
-- Patient inflow is geographically concentrated, indicating reliance on specific regions and potential opportunities for expansion.
-### 6. Chronic Illness Trends
-- Chronic illness cases show consistent and increasing patterns over time, with noticeable spikes during peak periods.
-- This suggests a growing long-term burden on hospital resources and highlights the need for preventive and continuous care strategies.
+
+- **High Readmission Risk:**  
+  Approximately 35% of patients are readmitted, particularly in Cardiology and Pediatrics, indicating potential gaps in post-discharge care and treatment effectiveness.
+
+- **Capacity Imbalance:**  
+  Pediatrics operates at ~91% capacity, creating bottlenecks, while the Emergency department is underutilised (~29%), highlighting inefficient resource allocation.
+
+- **Workforce Imbalance:**  
+  Patient load is unevenly distributed across doctors, with some handling significantly higher volumes, which may impact service quality and efficiency.
+
+- **Treatment Performance Variation:**  
+  Overall treatment success rate is ~78%, but varies significantly between routine procedures (high success) and complex treatments (lower success).
+
+- **Patient Demographics:**  
+  Majority of patients fall within the 18–35 age group, with a secondary concentration in older populations, influencing demand patterns.
+
+- **Chronic Illness Growth:**  
+  Chronic illness cases show a consistent upward trend, increasing long-term pressure on hospital resources.
 
 ---
 ## Strategic Recommendation
@@ -162,6 +174,22 @@ The analysis uncovered several critical insights across hospital operations, pat
 - Schedule regular monitoring and follow-up appointments
 - Educate patients on early intervention and lifestyle management
 
+---
+## Business Impact
+
+This solution provides a scalable analytical foundation for improving hospital operations and patient outcomes.
+
+By identifying key issues such as high readmission rates, capacity imbalances, and uneven workload distribution, the hospital can implement targeted interventions to improve efficiency and quality of care.
+
+The dashboard enables real-time monitoring of critical KPIs, supporting:
+- Reduced readmission rates through proactive patient follow-up
+- Improved resource allocation across departments
+- Better workforce management and performance tracking
+- Enhanced treatment effectiveness through data-driven evaluation
+
+Overall, the project supports more efficient operations, improved patient outcomes, and better long-term resource planning.
+
+---
 ## Tech Stack
 
 |Power BI       | Data visualisation & dashboarding|
