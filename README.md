@@ -1,7 +1,14 @@
 ## Healthcare Operations & Patient Analytics Solutions – St. Augustine Hospital
 ![](./Images/hospital_pics.png)
-## Business Problem
+## Overview
+St. Augustine Hospital relied on a flat-file data structure, limiting its ability to analyse operational performance and identify trends.
 
+To address this, the data was transformed into a structured star schema model, improving data quality, performance, and analytical flexibility. This enabled the development of interactive dashboards with real-time KPIs and drill-down capabilities.
+
+The analysis revealed key challenges, including high readmission rates, capacity constraints in high-demand departments, and uneven workload distribution across doctors.
+
+---
+## Business Problem
 St. Augustine Hospital lacked a structured data model and relied on flat-file datasets, making it difficult to analyse operational performance and patient outcomes effectively.
 
 This resulted in:
@@ -13,27 +20,7 @@ This resulted in:
 As a result, the hospital struggled to optimise resource allocation, manage patient demand, and improve quality of care.
 
 ---
-## Project Description
-
-Designed and implemented an end-to-end healthcare analytics solution to improve visibility into hospital operations and patient outcomes.
-
-The project transformed unstructured hospital data into a scalable star schema model and delivered interactive Power BI dashboards to monitor key metrics such as patient flow, departmental capacity, treatment effectiveness, and workforce performance.
-
-The solution enables stakeholders to identify operational inefficiencies, reduce readmissions, and optimise resource allocation through data-driven decision-making.
-
-
----
-## Overview
-
-St. Augustine Hospital relied on a flat-file data structure, limiting its ability to analyse operational performance and identify trends.
-
-To address this, the data was transformed into a structured star schema model, improving data quality, performance, and analytical flexibility. This enabled the development of interactive dashboards with real-time KPIs and drill-down capabilities.
-
-The analysis revealed key challenges, including high readmission rates, capacity constraints in high-demand departments, and uneven workload distribution across doctors.
-
----
 ## Project Rationale
-
 The hospital’s flat-file data structure limited its ability to generate accurate and timely insights due to data redundancy, poor performance, and lack of relational structure.
 
 This project introduces a star schema model and an interactive analytics layer, enabling efficient data exploration, KPI monitoring, and multi-dimensional analysis.
@@ -61,7 +48,6 @@ The dashboard was designed to address the following core business questions, ena
 - What is the trend of chronic illness cases over time?
 
 ---
-
 ## Project Scope (Step by Step Approach)
 The project was executed through a structured and methodical approach, ensuring both data integrity and analytical value:
 ### 1. Data Acquisition & Understanding
